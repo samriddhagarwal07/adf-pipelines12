@@ -5,6 +5,21 @@
 		"factoryName": {
 			"value": "summer4546545"
 		},
+		"AdvWorkDb_password": {
+			"value": ""
+		},
+		"BlobStorageProducts_connectionString": {
+			"value": ""
+		},
+		"AdvWorkDb_properties_typeProperties_server": {
+			"value": "fghjasn.database.windows.net"
+		},
+		"AdvWorkDb_properties_typeProperties_database": {
+			"value": "adventureworksdb"
+		},
+		"AdvWorkDb_properties_typeProperties_userName": {
+			"value": "samriddh"
+		},
 		"containerUri": {
 			"value": ""
 		},
