@@ -1,0 +1,22 @@
+{
+	"name": "ProductCsvBlob",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "BlobStorageProducts",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "products"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
