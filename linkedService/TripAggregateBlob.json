@@ -1,0 +1,12 @@
+{
+	"name": "TripAggregateBlob",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"connectionString": "DefaultEndpointsProtocol=https;AccountName=fdshddbhhvbjn;EndpointSuffix=core.windows.net;",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEFBMTI3M0NBLTkzNzEtNDVENi04NUJBLTUzNzQ0RUNGNzc0OV84OGY5MzUxNy0zNjFlLTRkZGMtYTdmMS1hZjAzZTI1MGYwZGQiDQp9"
+		}
+	}
+}
