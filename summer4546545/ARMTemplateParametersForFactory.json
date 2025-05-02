@@ -20,6 +20,9 @@
 		"ADLSTripData_accountKey": {
 			"value": ""
 		},
+		"TripAggregateBlob_connectionString": {
+			"value": ""
+		},
 		"ADLSZen2_properties_typeProperties_url": {
 			"value": "https://jhgfdsdfghj.dfs.core.windows.net/"
 		},
