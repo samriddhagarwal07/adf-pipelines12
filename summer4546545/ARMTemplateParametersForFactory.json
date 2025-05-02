@@ -5,11 +5,23 @@
 		"factoryName": {
 			"value": "summer4546545"
 		},
+		"ADLSZen2_accountKey": {
+			"value": ""
+		},
 		"AdvWorkDb_password": {
 			"value": ""
 		},
 		"BlobStorageProducts_connectionString": {
 			"value": ""
+		},
+		"TaxiTripDb_password": {
+			"value": ""
+		},
+		"ADLSTripData_accountKey": {
+			"value": ""
+		},
+		"ADLSZen2_properties_typeProperties_url": {
+			"value": "https://jhgfdsdfghj.dfs.core.windows.net/"
 		},
 		"AdvWorkDb_properties_typeProperties_server": {
 			"value": "fghjasn.database.windows.net"
@@ -19,6 +31,18 @@
 		},
 		"AdvWorkDb_properties_typeProperties_userName": {
 			"value": "samriddh"
+		},
+		"TaxiTripDb_properties_typeProperties_server": {
+			"value": "fghjasn.database.windows.net"
+		},
+		"TaxiTripDb_properties_typeProperties_database": {
+			"value": "taxi-data"
+		},
+		"TaxiTripDb_properties_typeProperties_userName": {
+			"value": "samriddh"
+		},
+		"ADLSTripData_properties_typeProperties_url": {
+			"value": "https://tgduxag.dfs.core.windows.net/"
 		}
 	}
 }

@@ -7,6 +7,10 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "summer4546545"
 		},
+		"ADLSZen2_accountKey": {
+			"type": "secureString",
+			"metadata": "Secure string for 'accountKey' of 'ADLSZen2'"
+		},
 		"AdvWorkDb_password": {
 			"type": "secureString",
 			"metadata": "Secure string for 'password' of 'AdvWorkDb'"
@@ -14,6 +18,18 @@
 		"BlobStorageProducts_connectionString": {
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'BlobStorageProducts'"
+		},
+		"TaxiTripDb_password": {
+			"type": "secureString",
+			"metadata": "Secure string for 'password' of 'TaxiTripDb'"
+		},
+		"ADLSTripData_accountKey": {
+			"type": "secureString",
+			"metadata": "Secure string for 'accountKey' of 'ADLSTripData'"
+		},
+		"ADLSZen2_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://jhgfdsdfghj.dfs.core.windows.net/"
 		},
 		"AdvWorkDb_properties_typeProperties_server": {
 			"type": "string",
@@ -26,6 +42,22 @@
 		"AdvWorkDb_properties_typeProperties_userName": {
 			"type": "string",
 			"defaultValue": "samriddh"
+		},
+		"TaxiTripDb_properties_typeProperties_server": {
+			"type": "string",
+			"defaultValue": "fghjasn.database.windows.net"
+		},
+		"TaxiTripDb_properties_typeProperties_database": {
+			"type": "string",
+			"defaultValue": "taxi-data"
+		},
+		"TaxiTripDb_properties_typeProperties_userName": {
+			"type": "string",
+			"defaultValue": "samriddh"
+		},
+		"ADLSTripData_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://tgduxag.dfs.core.windows.net/"
 		},
 		"containerUri": {
 			"type": "string",
@@ -54,11 +86,23 @@
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
 					},
+					"ADLSZen2_accountKey": {
+						"value": "[parameters('ADLSZen2_accountKey')]"
+					},
 					"AdvWorkDb_password": {
 						"value": "[parameters('AdvWorkDb_password')]"
 					},
 					"BlobStorageProducts_connectionString": {
 						"value": "[parameters('BlobStorageProducts_connectionString')]"
+					},
+					"TaxiTripDb_password": {
+						"value": "[parameters('TaxiTripDb_password')]"
+					},
+					"ADLSTripData_accountKey": {
+						"value": "[parameters('ADLSTripData_accountKey')]"
+					},
+					"ADLSZen2_properties_typeProperties_url": {
+						"value": "[parameters('ADLSZen2_properties_typeProperties_url')]"
 					},
 					"AdvWorkDb_properties_typeProperties_server": {
 						"value": "[parameters('AdvWorkDb_properties_typeProperties_server')]"
@@ -68,6 +112,18 @@
 					},
 					"AdvWorkDb_properties_typeProperties_userName": {
 						"value": "[parameters('AdvWorkDb_properties_typeProperties_userName')]"
+					},
+					"TaxiTripDb_properties_typeProperties_server": {
+						"value": "[parameters('TaxiTripDb_properties_typeProperties_server')]"
+					},
+					"TaxiTripDb_properties_typeProperties_database": {
+						"value": "[parameters('TaxiTripDb_properties_typeProperties_database')]"
+					},
+					"TaxiTripDb_properties_typeProperties_userName": {
+						"value": "[parameters('TaxiTripDb_properties_typeProperties_userName')]"
+					},
+					"ADLSTripData_properties_typeProperties_url": {
+						"value": "[parameters('ADLSTripData_properties_typeProperties_url')]"
 					}
 				}
 			},
