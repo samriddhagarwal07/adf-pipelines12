@@ -5,6 +5,9 @@
 		"factoryName": {
 			"value": "summer4546545"
 		},
+		"ADLSTripData_accountKey": {
+			"value": ""
+		},
 		"ADLSZen2_accountKey": {
 			"value": ""
 		},
@@ -17,11 +20,11 @@
 		"TaxiTripDb_password": {
 			"value": ""
 		},
-		"ADLSTripData_accountKey": {
-			"value": ""
-		},
 		"TripAggregateBlob_connectionString": {
 			"value": ""
+		},
+		"ADLSTripData_properties_typeProperties_url": {
+			"value": "https://tgduxag.dfs.core.windows.net/"
 		},
 		"ADLSZen2_properties_typeProperties_url": {
 			"value": "https://jhgfdsdfghj.dfs.core.windows.net/"
@@ -43,9 +46,6 @@
 		},
 		"TaxiTripDb_properties_typeProperties_userName": {
 			"value": "samriddh"
-		},
-		"ADLSTripData_properties_typeProperties_url": {
-			"value": "https://tgduxag.dfs.core.windows.net/"
 		},
 		"containerUri": {
 			"value": ""
