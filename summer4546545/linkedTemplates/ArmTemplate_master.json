@@ -19,6 +19,14 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'password' of 'AdvWorkDb'"
 		},
+		"AzureSqlDatabaseLinkedService_password": {
+			"type": "secureString",
+			"metadata": "Secure string for 'password' of 'AzureSqlDatabaseLinkedService'"
+		},
+		"AzureStorageLinkedService_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'AzureStorageLinkedService'"
+		},
 		"BlobStorageProducts_connectionString": {
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'BlobStorageProducts'"
@@ -30,6 +38,10 @@
 		"TripAggregateBlob_connectionString": {
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'TripAggregateBlob'"
+		},
+		"AzureBlobStorage1_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorage1'"
 		},
 		"ADLSTripData_properties_typeProperties_url": {
 			"type": "string",
@@ -48,6 +60,18 @@
 			"defaultValue": "adventureworksdb"
 		},
 		"AdvWorkDb_properties_typeProperties_userName": {
+			"type": "string",
+			"defaultValue": "samriddh"
+		},
+		"AzureSqlDatabaseLinkedService_properties_typeProperties_server": {
+			"type": "string",
+			"defaultValue": "fghjasn.database.windows.net"
+		},
+		"AzureSqlDatabaseLinkedService_properties_typeProperties_database": {
+			"type": "string",
+			"defaultValue": "adventureworksdb"
+		},
+		"AzureSqlDatabaseLinkedService_properties_typeProperties_userName": {
 			"type": "string",
 			"defaultValue": "samriddh"
 		},
@@ -99,6 +123,12 @@
 					"AdvWorkDb_password": {
 						"value": "[parameters('AdvWorkDb_password')]"
 					},
+					"AzureSqlDatabaseLinkedService_password": {
+						"value": "[parameters('AzureSqlDatabaseLinkedService_password')]"
+					},
+					"AzureStorageLinkedService_connectionString": {
+						"value": "[parameters('AzureStorageLinkedService_connectionString')]"
+					},
 					"BlobStorageProducts_connectionString": {
 						"value": "[parameters('BlobStorageProducts_connectionString')]"
 					},
@@ -107,6 +137,9 @@
 					},
 					"TripAggregateBlob_connectionString": {
 						"value": "[parameters('TripAggregateBlob_connectionString')]"
+					},
+					"AzureBlobStorage1_connectionString": {
+						"value": "[parameters('AzureBlobStorage1_connectionString')]"
 					},
 					"ADLSTripData_properties_typeProperties_url": {
 						"value": "[parameters('ADLSTripData_properties_typeProperties_url')]"
@@ -122,6 +155,15 @@
 					},
 					"AdvWorkDb_properties_typeProperties_userName": {
 						"value": "[parameters('AdvWorkDb_properties_typeProperties_userName')]"
+					},
+					"AzureSqlDatabaseLinkedService_properties_typeProperties_server": {
+						"value": "[parameters('AzureSqlDatabaseLinkedService_properties_typeProperties_server')]"
+					},
+					"AzureSqlDatabaseLinkedService_properties_typeProperties_database": {
+						"value": "[parameters('AzureSqlDatabaseLinkedService_properties_typeProperties_database')]"
+					},
+					"AzureSqlDatabaseLinkedService_properties_typeProperties_userName": {
+						"value": "[parameters('AzureSqlDatabaseLinkedService_properties_typeProperties_userName')]"
 					},
 					"TaxiTripDb_properties_typeProperties_server": {
 						"value": "[parameters('TaxiTripDb_properties_typeProperties_server')]"
